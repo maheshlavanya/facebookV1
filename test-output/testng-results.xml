@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-26T13:59:29 IST" name="facebookV1" finished-at="2023-12-26T14:00:33 IST" duration-ms="64173">
+    <groups>
+    </groups>
+    <test started-at="2023-12-26T13:59:29 IST" name="FaceBook" finished-at="2023-12-26T14:00:05 IST" duration-ms="35970">
+      <class name="com.facebookV1.testCases.FaceBook">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:com.facebookV1.testCases.FaceBook@6a8658ff]" started-at="2023-12-26T13:59:29 IST" name="launchBrowser" finished-at="2023-12-26T13:59:35 IST" duration-ms="5715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login()[pri:1, instance:com.facebookV1.testCases.FaceBook@6a8658ff]" started-at="2023-12-26T13:59:35 IST" name="login" finished-at="2023-12-26T13:59:35 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="validating()[pri:2, instance:com.facebookV1.testCases.FaceBook@6a8658ff]" started-at="2023-12-26T13:59:35 IST" name="validating" finished-at="2023-12-26T13:59:48 IST" duration-ms="12804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validating -->
+        <test-method signature="name()[pri:3, instance:com.facebookV1.testCases.FaceBook@6a8658ff]" started-at="2023-12-26T13:59:48 IST" name="name" finished-at="2023-12-26T13:59:54 IST" duration-ms="5325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="nameSearch()[pri:4, instance:com.facebookV1.testCases.FaceBook@6a8658ff]" started-at="2023-12-26T13:59:54 IST" name="nameSearch" finished-at="2023-12-26T14:00:04 IST" duration-ms="10668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.facebookV1.testCases.FaceBook@6a8658ff]" started-at="2023-12-26T14:00:04 IST" name="teardown" finished-at="2023-12-26T14:00:05 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.facebookV1.testCases.FaceBook -->
+    </test> <!-- FaceBook -->
+    <test started-at="2023-12-26T14:00:05 IST" name="Orangehrm" finished-at="2023-12-26T14:00:33 IST" duration-ms="28109">
+      <class name="com.facebookV1.testCases.OrangehrmLoginTC">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:com.facebookV1.testCases.OrangehrmLoginTC@f58853c]" started-at="2023-12-26T14:00:05 IST" name="launchBrowser" finished-at="2023-12-26T14:00:10 IST" duration-ms="5242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orangehrm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginDDt(java.lang.String,java.lang.String)[pri:0, instance:com.facebookV1.testCases.OrangehrmLoginTC@f58853c]" started-at="2023-12-26T14:00:12 IST" name="loginDDt" data-provider="LoginData" finished-at="2023-12-26T14:00:19 IST" duration-ms="6977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fdre]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDt -->
+        <test-method signature="loginDDt(java.lang.String,java.lang.String)[pri:0, instance:com.facebookV1.testCases.OrangehrmLoginTC@f58853c]" started-at="2023-12-26T14:00:19 IST" name="loginDDt" data-provider="LoginData" finished-at="2023-12-26T14:00:26 IST" duration-ms="7060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr2847]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hdwchd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDt -->
+        <test-method signature="loginDDt(java.lang.String,java.lang.String)[pri:0, instance:com.facebookV1.testCases.OrangehrmLoginTC@f58853c]" started-at="2023-12-26T14:00:26 IST" name="loginDDt" data-provider="LoginData" finished-at="2023-12-26T14:00:33 IST" duration-ms="7041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anr82344]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[maheshmahe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDt -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.facebookV1.testCases.OrangehrmLoginTC@f58853c]" started-at="2023-12-26T14:00:33 IST" name="teardown" finished-at="2023-12-26T14:00:33 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.facebookV1.testCases.OrangehrmLoginTC -->
+    </test> <!-- Orangehrm -->
+  </suite> <!-- facebookV1 -->
+</testng-results>

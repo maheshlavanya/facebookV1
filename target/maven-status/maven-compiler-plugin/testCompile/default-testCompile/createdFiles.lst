@@ -1,0 +1,7 @@
+com\facebookV1\pageObject\LoginPage.class
+com\facebookV1\testCases\LoginPageTC.class
+com\facebookV1\utilities\Reporting.class
+com\facebookV1\testCases\FaceBook.class
+com\facebookV1\utilities\XLUtils.class
+com\facebookV1\utilities\Readconfig.class
+com\facebookV1\testCases\OrangehrmLoginTC.class

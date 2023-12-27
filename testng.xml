@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite">
+	<listeners>
+		<listener class-name="com.facebookV1.utilities.Reporting"></listener>
+	</listeners>
+	<test name="FaceBook">
+	  <parameter name="Browser" value="chrome"></parameter>
+	  <parameter name="ApplicationUrl" value="facebook"></parameter>
+    <classes>
+      <class name="com.facebookV1.testCases.FaceBook"/>
+    </classes>
+  </test>
+  <test name="Orangehrm">
+	  <parameter name="Browser" value="chrome"></parameter>
+	  <parameter name="ApplicationUrl" value="orangehrm"></parameter>
+    <classes>
+      <class name="com.facebookV1.testCases.OrangehrmLoginTC"/>
+    </classes>
+  </test>
+</suite> 
